@@ -36,6 +36,12 @@ userExample.recent_payments("TEST")
 ```
 userExample.list_all_va()
 ```
+**Verify Signature**
+
+```
+userExample.is_valid_signature(data)
+```
+
 ## Found a bug?
 
 Report it at [https://github.com/cashfree/autocollect_integration_kits/issues](https://github.com/cashfree/autocollect_integration_kits/issues)
