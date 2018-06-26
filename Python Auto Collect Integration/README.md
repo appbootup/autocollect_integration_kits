@@ -31,7 +31,7 @@ userExample.create_virtual_account("TEST", "Tester","9999999999", "test@gmail.co
 ```
 userExample.recent_payments("TEST")
 ```
-**List all Virtual Accounts **
+**List all Virtual Accounts**
 
 ```
 userExample.list_all_va()
