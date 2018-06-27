@@ -1,6 +1,6 @@
 const user = require('./cfAutoCollect.js');
 
-let userExample = new user('CF27EFXRWU3WKIAAUUQ', '5bd9ba5e0bf69112dde1a7f0a77121c3b78b144c', 'TEST');
+let userExample = new user('dummyClientId', 'dummyClientSecret', 'TEST');
 
 userExample.client_auth()
 userExample.create_virtual_account("TEST","Tester", "9999999999", "tester@gmail.com");
