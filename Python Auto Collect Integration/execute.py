@@ -1,6 +1,6 @@
 from cfAutoCollect import cfAutoCollect
 
-userExample = cfAutoCollect("CF27EFXRWU3WKIAAUUQ", "5bd9ba5e0bf69112dde1a7f0a77121c3b78b144c", "TEST")
+userExample = cfAutoCollect("dummyClientId", "dummyClientSecret", "TEST/PROD")
 userExample.client_auth()
 userExample.create_virtual_account("TEST", "Tester","9999999999", "test@gmail.com")
 userExample.recent_payments("TEST")
